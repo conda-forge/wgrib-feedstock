@@ -26,13 +26,13 @@ test:
   files:
     - land.grb
   commands:
-    - wgrib land.grb -V
+    - wgrib land.grb -d 1
 
 about:
   home: https://www.cpc.ncep.noaa.gov/products/wesley/wgrib.html
   license: Public Domain
   license_file: NOTICE
-  summary: 'Utility to read and write grib files'
+  summary: 'Manipulate, inventory and decode GRIB files'
 
 extra:
   recipe-maintainers:
