@@ -13,12 +13,12 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
   detect_binary_files_with_prefix: true
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - make  # [win]
   host:
 
 test:
