@@ -13,25 +13,26 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
   detect_binary_files_with_prefix: true
 
 requirements:
   build:
-    - {{ compiler('c') }}
+    - {{ compiler('c') }}  # [not win]
+    - {{ compiler('m2w64_c') }}  # [win]
+    - make  # [win]
   host:
 
 test:
   files:
     - land.grb
   commands:
-    - wgrib land.grb -V
+    - wgrib land.grb -d 1
 
 about:
   home: https://www.cpc.ncep.noaa.gov/products/wesley/wgrib.html
   license: Public Domain
   license_file: NOTICE
-  summary: 'Utility to read and write grib files'
+  summary: 'Manipulate, inventory and decode GRIB files'
 
 extra:
   recipe-maintainers:
