@@ -19,7 +19,7 @@ requirements:
   build:
     - {{ compiler('c') }}  # [not win]
     - {{ compiler('m2w64_c') }}  # [win]
-    - make  # [win]
+    - make
   host:
 
 test:
@@ -30,8 +30,8 @@ test:
 
 about:
   home: https://www.cpc.ncep.noaa.gov/products/wesley/wgrib.html
-  license: BSD-3-Clause
-  license_file: LICENSE.txt
+  license: Public Domain
+  license_file: NOTICE
   summary: 'Manipulate, inventory and decode GRIB files'
 
 extra:
