@@ -3,7 +3,7 @@ About wgrib
 
 Home: https://www.cpc.ncep.noaa.gov/products/wesley/wgrib.html
 
-Package license: Public Domain
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wgrib-feedstock/blob/main/LICENSE.txt)
 
