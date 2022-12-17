@@ -30,8 +30,8 @@ test:
 
 about:
   home: https://www.cpc.ncep.noaa.gov/products/wesley/wgrib.html
-  license: Public Domain
-  license_file: NOTICE
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
   summary: 'Manipulate, inventory and decode GRIB files'
 
 extra:
