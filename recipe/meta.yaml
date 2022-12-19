@@ -19,7 +19,7 @@ requirements:
   build:
     - {{ compiler('c') }}  # [not win]
     - {{ compiler('m2w64_c') }}  # [win]
-    - make  # [win]
+    - make
   host:
 
 test:
