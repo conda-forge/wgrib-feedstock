@@ -1,11 +1,11 @@
-About wgrib
-===========
+About wgrib-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wgrib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.cpc.ncep.noaa.gov/products/wesley/wgrib.html
 
 Package license: Public Domain
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wgrib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Manipulate, inventory and decode GRIB files
 
