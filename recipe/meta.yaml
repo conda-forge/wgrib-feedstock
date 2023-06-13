@@ -1,4 +1,4 @@
-{% set version = "1.8.3" %}
+{% set version = "1.8.4" %}
 
 package:
   name: wgrib
@@ -7,7 +7,7 @@ package:
 source:
   fn: wgrib.tar
   url: https://ftp.cpc.ncep.noaa.gov/wd51we/wgrib/wgrib.tar.v{{ version }}
-  sha256: 94db09752e23c803c79f066bfe1dfef6a94c6a4d95dba9d634fc276f6793ed0c
+  sha256: 3b6b74c8fb87322254afd7cb80c1d41b11f053cdc439d5ad3050155bf0fd53c1
   patches:
     - ccompiler.patch
 
