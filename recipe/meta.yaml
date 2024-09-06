@@ -23,6 +23,10 @@ requirements:
     - {{ stdlib("m2w64_c") }}    # [win]
     - make  # [not win]
     - m2-make  # [win]
+    - m2-sed         # [win]
+    - m2-coreutils   # [win]
+    - m2-filesystem  # [win]
+    - m2-zip         # [win]
   host:
 
 test:
