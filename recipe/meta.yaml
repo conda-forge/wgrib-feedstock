@@ -12,15 +12,21 @@ source:
     - ccompiler.patch
 
 build:
-  number: 0
+  number: 1
   detect_binary_files_with_prefix: true
 
 requirements:
   build:
     - {{ compiler('c') }}  # [not win]
+    - {{ stdlib("c") }}    # [not win]
     - {{ compiler('m2w64_c') }}  # [win]
+    - {{ stdlib("m2w64_c") }}    # [win]
     - make  # [not win]
     - m2-make  # [win]
+    - m2-sed         # [win]
+    - m2-coreutils   # [win]
+    - m2-filesystem  # [win]
+    - m2-zip         # [win]
   host:
 
 test:
